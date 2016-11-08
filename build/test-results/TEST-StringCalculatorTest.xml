@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StringCalculatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-08T20:58:33" hostname="russell-Aspire-V5-591G" time="0.005">
+<testsuite name="StringCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-08T21:57:35" hostname="russell-Aspire-V5-591G" time="0.001">
   <properties/>
   <testcase name="oneNumberInput" classname="StringCalculatorTest" time="0.001"/>
-  <testcase name="zeroNumberInput" classname="StringCalculatorTest" time="0.0"/>
-  <testcase name="ClassTest" classname="StringCalculatorTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[5
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
