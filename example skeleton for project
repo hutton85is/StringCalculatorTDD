@@ -1,0 +1,9 @@
+function to sum integerarray(int[])
+sum(int[])
+
+function to turn String array to int array 
+turntoint(String array)
+
+
+function to recieve String input and call all other functions 
+sum(String)
