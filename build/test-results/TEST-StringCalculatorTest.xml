@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StringCalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-11-08T21:59:41" hostname="russell-Aspire-V5-591G" time="0.007">
+<testsuite name="StringCalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-11-08T22:21:41" hostname="russell-Aspire-V5-591G" time="0.008">
   <properties/>
-  <testcase name="oneNumberInput" classname="StringCalculatorTest" time="0.001"/>
+  <testcase name="oneNumberInput" classname="StringCalculatorTest" time="0.002"/>
   <testcase name="zeroNumberInput" classname="StringCalculatorTest" time="0.0"/>
   <testcase name="twoNumberInput" classname="StringCalculatorTest" time="0.0"/>
   <testcase name="ClassTest" classname="StringCalculatorTest" time="0.005"/>

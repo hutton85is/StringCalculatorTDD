@@ -2,50 +2,55 @@
 
 <span class="fc" id="L3">public class StringCalculator {</span>
 
+	/**
+	*	Check if string is empty
+	* @param str is the String to check if empty
+	* @return true if str is empty, else false
+	*/
 	private boolean isItEmpty(String str) {
-<span class="fc bfc" id="L6" title="All 2 branches covered.">		return str == &quot;&quot;;</span>
+<span class="fc bfc" id="L11" title="All 2 branches covered.">		return str == &quot;&quot;;</span>
 	}
 
 	private String[] splitStringToArray(String str) {
 
-<span class="fc" id="L11">		String[] arrStr = str.split(&quot;,&quot;);</span>
+<span class="fc" id="L16">		String[] arrStr = str.split(&quot;,&quot;);</span>
 
-<span class="fc" id="L13">		return arrStr;</span>
+<span class="fc" id="L18">		return arrStr;</span>
 	}
 
 	private int[] strArrToIntArr(String ... arrStr) {
 
-<span class="fc" id="L18">		int[] arrInt = new int[arrStr.length];</span>
+<span class="fc" id="L23">		int[] arrInt = new int[arrStr.length];</span>
 
-<span class="fc bfc" id="L20" title="All 2 branches covered.">		for (int i = 0; i &lt; arrStr.length; i++) {</span>
-<span class="fc" id="L21">			arrInt[i] = Integer.parseInt(arrStr[i]);</span>
+<span class="fc bfc" id="L25" title="All 2 branches covered.">		for (int i = 0; i &lt; arrStr.length; i++) {</span>
+<span class="fc" id="L26">			arrInt[i] = Integer.parseInt(arrStr[i]);</span>
 		}
 
-<span class="fc" id="L24">		return arrInt;</span>
+<span class="fc" id="L29">		return arrInt;</span>
 	}
 
 	private int sumArray(int ... arrInt){
 
-<span class="fc" id="L29">		int sumArray = 0;</span>
+<span class="fc" id="L34">		int sumArray = 0;</span>
 
-<span class="fc bfc" id="L31" title="All 2 branches covered.">		for (int i = 0; i &lt; arrInt.length; i++) {</span>
-<span class="fc" id="L32">			sumArray += arrInt[i];</span>
+<span class="fc bfc" id="L36" title="All 2 branches covered.">		for (int i = 0; i &lt; arrInt.length; i++) {</span>
+<span class="fc" id="L37">			sumArray += arrInt[i];</span>
 		}
 
-<span class="fc" id="L35">		return sumArray;</span>
+<span class="fc" id="L40">		return sumArray;</span>
 	}
 
 	public int sum(String str) {
 		
-<span class="fc bfc" id="L40" title="All 2 branches covered.">		if (isItEmpty(str)) {</span>
-<span class="fc" id="L41">			return 0;</span>
+<span class="fc bfc" id="L45" title="All 2 branches covered.">		if (isItEmpty(str)) {</span>
+<span class="fc" id="L46">			return 0;</span>
 		}
 
-<span class="fc" id="L44">		String[] arrStr = splitStringToArray(str);</span>
-<span class="fc" id="L45">		System.out.println(arrStr[0]);</span>
-<span class="fc" id="L46">		int[] arrInt = strArrToIntArr(arrStr);</span>
+<span class="fc" id="L49">		String[] arrStr = splitStringToArray(str);</span>
+<span class="fc" id="L50">		System.out.println(arrStr[0]);</span>
+<span class="fc" id="L51">		int[] arrInt = strArrToIntArr(arrStr);</span>
 
-<span class="fc" id="L48">		return sumArray(arrInt);</span>
+<span class="fc" id="L53">		return sumArray(arrInt);</span>
 	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.1.201405082137</span></div></body></html>

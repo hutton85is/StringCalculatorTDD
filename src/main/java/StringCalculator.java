@@ -2,6 +2,11 @@ import java.util.*;
 
 public class StringCalculator {
 
+	/**
+	*	Check if string is empty
+	* @param str is the String to check if empty
+	* @return true if str is empty, else false
+	*/
 	private boolean isItEmpty(String str) {
 		return str == "";
 	}
