@@ -47,7 +47,7 @@ public class StringCalculator {
 		}
 
 		String[] arrStr = splitStringToArray(str);
-		System.out.println(arrStr[0]);
+		
 		int[] arrInt = strArrToIntArr(arrStr);
 
 		return sumArray(arrInt);
